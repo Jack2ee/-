@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Categories:</strong>
+  <%= @post.categories %>
+</p>
+
+<p>
+  <strong>Items:</strong>
+  <%= @post.items %>
+</p>
+
+<p>
+  <strong>Price :</strong>
+  <%= @post.price_ %>
+</p>
+
+<%= link_to '수정', edit_post_path(@post) %> |
+<%= link_to '뒤로', posts_path %>
